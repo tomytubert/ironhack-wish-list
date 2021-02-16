@@ -75,3 +75,9 @@ La **App** debe contener los siguientes componentes:
     |-index.js
 
 ````
+
+#### Tips
+
+- La informacion entre componentes se comparte a traves de sus props.
+- La informacion por props viaja unicamente de padre a hijo, no puede pasar de hermano a hermano.
+- Si yo quiero enviar informacion de un hijo a un padre, el padre pasa al hijo por props un callback y el hijo la ejecuta para enviarle la informacion al padre.

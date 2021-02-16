@@ -1,0 +1,44 @@
+.form {
+    min-width: 100%;
+    min-height: 100px;
+    background-color: tomato;
+    margin: 20px auto;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+.card {
+    min-width: 100px;
+    min-height: 50px;
+    background-color: yellowgreen;
+    margin: 10px;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.cards-container {
+    min-width: 100%;
+    min-height: 500px;
+    margin: 10px auto;
+    background-color:lightblue; 
+    padding: 20px 0;
+}
+
+.button {
+    background-color: lightslategray;
+    border: none;
+    margin: 5px;
+}

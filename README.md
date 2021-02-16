@@ -12,6 +12,7 @@ La **App** debe permitir al usuario:
 
 La **App** debe contener los siguientes componentes:
 
+````
 - App
     - Props: {
         children: [
@@ -43,6 +44,7 @@ La **App** debe contener los siguientes componentes:
     - Props: {
         onSubmit: callback
     }
+````
 
 ### Folder structure
 
